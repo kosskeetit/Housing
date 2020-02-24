@@ -4,7 +4,7 @@
 $hostname = 'localhost';
 $username = 'root';
 $password = '';
-$databasename = 'BlogpointDB';
+$databasename = 'HousingDB';
 //To connect to a database use the php function called mysqli_connect()
 //mysqli function returns a boolean datatype
 function maxy($num1, $num2)

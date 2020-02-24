@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>BlogPoint</title>
+    <title>Housing</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
@@ -23,12 +23,17 @@
 
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Tenants</a>
+                <a class="nav-link" href="tenant.details.php">Tenants</a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="#">Available Houses</a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="signup.php">SIGN UP</a>
+            </li>
+
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

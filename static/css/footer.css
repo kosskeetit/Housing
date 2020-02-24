@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+}
+.row{
+    columns: 400px 2;
+    columns: auto;
+}
+li{
+    list-style-type:none ;
+}

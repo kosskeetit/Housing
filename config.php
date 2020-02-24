@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 //Credentials to connecting to a db
@@ -27,4 +28,20 @@ if ($connection == false) {
     die('ERROR: ' . mysqli_connect_error());
 }
 
+=======
+<?php
+
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$db_name = 'housedb';
+
+//connection
+$connection = mysqli_connect($servername,$username,$password,$db_name);
+
+if(!$connection){
+    echo "Connection to db failed ".mysqli_connect_error();
+}
+
+>>>>>>> 97d3156f4089596792db3d0c0562ce9f19e380ec
 ?>

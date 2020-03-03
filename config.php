@@ -4,7 +4,7 @@
 $hostname='localhost';
 $username='root';
 $password='';
-$databasename='';
+$databasename='HousingDB';
 //To connect to database: use the php function called mysqli_connect()
 //mysqli function returns a boolean datatype
 $connection=mysqli_connect($hostname,$username,$password,$databasename);

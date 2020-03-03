@@ -27,38 +27,19 @@
             <li class="nav-item active">
                 <a class="nav-link" href="index2.php">Home <span class="sr-only">(current)</span></a>
             </li>
-            <?php
-            if (isset ($_SESSION['loggedin'])){
-                echo"
-                  <li class='nav-item'>
-                        <a class='nav-link' href='logout.php'>Logout</a>
-                  </li>
-                   <li class='nav-item'>
-                      <a class='nav-link' href='pay_rent.php'></a>
-                  </li>
-                   <li class='nav-item'>
-                      <a class='nav-link' href='book.php'></a>
-                  </li>
-                   ";
-            }else{
-                echo'
-            
-             <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" href="login.php">Login</a>
             </li>
-          
+
             <li class="nav-item">
                 <a class="nav-link" href="signup.php">Signup</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.php">My House</a>
             </li>
-            
-            ';
-
-
-            }
-            ?>
+            <li class="nav-item">
+                <a class="nav-link" href="tenant.details.php">Tenant details</a>
+            </li>
 
 
             <li class="nav-item dropdown">

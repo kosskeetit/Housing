@@ -3,18 +3,21 @@
 <div class="footer">
  <footer>
      <div class="row">
-         <div class="col col-sm-4 col-md-4 col-lg-4 col-xl-4"><h2>SITE MAP:</h2>
-             <img src="static/images/images%20(14).jpeg" height="70" weight="50">
-        <p> 8888 HOUSE 4 KENYANS INITIATIVE</p></div>
-         <div class="col col-sm-4 col-md-4 col-lg-4 col-xl-4">More:
-             <li><a href="">Home</a></li>
-             <li><a href="">About</a></li>
-             <li><a href="">Login</a></li>
-             <li><a href="">Contact Us</a></li>
-        </div>
+            <div class="col col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <h2>SITE MAP:</h2>
+                <img src="static/images/images%20(14).jpeg" height="100px" weight="50px">
+            </div>
+            <div class="col col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Contact Us</a></li>
+            </div>
+            <div class="col col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <p> 8888 HOUSE 4 KENYANS INITIATIVE @ Copyright : 2020</p></div>
+            </div>
      </div>
  </footer>
-	<div class="footer-text">@ Copyright : 2020</div>
 </div>
 <script src="static/js/jquery-3.4.1.js"></script>
 <script src="static/js/bootstrap.min.js"></script>

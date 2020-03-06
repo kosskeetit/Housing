@@ -18,7 +18,7 @@ if (isset($_POST['update_btn'])){
         $sql = "UPDATE `house` SET `house_id`= '$house_id',`building_name`='$building_name',`building_block`='$building_block',`location`='$location',`tenant`='$tenant',`house_condition`='$house_condition' WHERE id = '$id'";
 //        execute update instruction
         if(mysqli_query($connection, $sql)){
-            header("location:details.php?id=$id");
+            header("location:index2.php?id=$id");
             exit();
 
         }else{

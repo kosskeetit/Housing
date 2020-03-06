@@ -27,7 +27,7 @@ if (isset($_POST['btn_login'])){
         }
     }else{
 //        password or email is wrong
-        header("location:login.php");
+        header("location:index.php");
     }
 
 
@@ -62,6 +62,7 @@ if (isset($_POST['btn_login'])){
                         <div class="form-group">
                             <button class="btn btn-info btn-block" name="btn_login">Login</button>
                         </div>
+
                     </fieldset>
                 </form>
             </div>
